@@ -1,0 +1,37 @@
+/*
+ Theme Name:   GeneratePress Child
+ Theme URI:    https://generatepress.com
+ Description:  Default GeneratePress child theme
+ Author:       Tom Usborne
+ Author URI:   https://tomusborne.com
+ Template:     generatepress
+ Version:      0.1
+*/
+
+.entry-content ul, .entry-content ol {
+    padding: 0 0 0 25px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.ads{
+	width: 320px; height: 250px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.ads_right{
+	float: right !important;
+}
+
+@media(min-width: 800px) { .ads { width: 336px; height: 300px; float: left; } }
+@media(max-width: 320px) { .ads { width: 320px; height: 100px; } }
+
+.calcolo-form input[type=text],input[type=number],input[type=submit], select, button {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.calcolo-form input[type=submit] {
+	margin-top: 10px;
+}
