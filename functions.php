@@ -35,7 +35,7 @@ add_filter( 'mce_buttons_2', 'my_mce_buttons_2' );
 * Enqueue cookie consent files
 */
 function add_cookie_consent(){
-	wp_enqueue_style( 'cookie-consent', 'https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css' );
+	wp_enqueue_style( 'cookie-consent', get_stylesheet_directory_uri() . '/css/cookie.css' );
 	wp_enqueue_script( 'cookie-consent', 'https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.6/cookieconsent.min.js', null, null, true );
     wp_enqueue_script( 'cookie-js', get_stylesheet_directory_uri() . '/js/cookie.js', array(), '', true ); 
 }
