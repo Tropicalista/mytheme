@@ -30,8 +30,6 @@ get_header(); ?>
 			 */
 			do_action( 'generate_archive_title' );
 
-			generate_content_nav( 'nav-below' );
-
 			/**
 			 * generate_after_main_content hook.
 			 *
