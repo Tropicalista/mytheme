@@ -40,3 +40,14 @@ function add_cookie_consent(){
     wp_enqueue_script( 'cookie-js', get_stylesheet_directory_uri() . '/js/cookie.js', array(), '', true ); 
 }
 add_action( 'wp_enqueue_scripts', 'add_cookie_consent' );
+
+function tu_add_yoast_bc() {
+
+	if ( function_exists('yoast_breadcrumb') ) {
+	yoast_breadcrumb('
+	<p id="breadcrumbs">','</p>
+	');
+	}
+
+}
+add_action( 'generate_after_header', 'tu_add_yoast_bc' );

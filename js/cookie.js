@@ -14,9 +14,5 @@ window.cookieconsent.initialise({
   onStatusChange: function(status) {
     if(this.element.parentNode)
     this.element.parentNode.removeChild(this.element);
-  },
-  law: {
-    regionalLaw: false,
-  },
-  location: true,
+  }
 });
