@@ -50,4 +50,4 @@ function tu_add_yoast_bc() {
 	}
 
 }
-add_action( 'generate_after_header', 'tu_add_yoast_bc' );
+add_action( 'generate_before_main_content', 'tu_add_yoast_bc' );
