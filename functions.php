@@ -41,13 +41,3 @@ function add_cookie_consent(){
 }
 add_action( 'wp_enqueue_scripts', 'add_cookie_consent' );
 
-function tu_add_yoast_bc() {
-
-	if ( function_exists('yoast_breadcrumb') ) {
-	yoast_breadcrumb('
-	<p id="breadcrumbs">','</p>
-	');
-	}
-
-}
-add_action( 'generate_after_entry_header', 'tu_add_yoast_bc' );
