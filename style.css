@@ -35,3 +35,15 @@
 .calcolo-form input[type=submit] {
 	margin-top: 10px;
 }
+
+.button.sun-flower,
+.button.sun-flower:visited {
+	background: #F1C40F;
+	color:#FFF;
+}
+
+.button.sun-flower:hover,
+.button.sun-flower:active {
+	background: #E2B607;
+	color:#FFF;
+}
