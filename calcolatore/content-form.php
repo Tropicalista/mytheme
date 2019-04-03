@@ -88,7 +88,7 @@
 <div class="inside-article">
 
     <!-- This file should primarily consist of HTML with a little bit of PHP. -->
-    <p>Usa il form sottostante per ogni tua richiesta. Tutti i campi sono obbligatori.</p>
+    <p>Usa il form sottostante per effettuare il calcolo della rata del prestito. Tutti i campi sono obbligatori.</p>
 
     <form action="<?php esc_url( $_SERVER['REQUEST_URI'] ) ;?>" class="calcolo-form" method="post">
 
